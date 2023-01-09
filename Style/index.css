@@ -68,15 +68,6 @@ nav a:active {
     display: block;
 }
 
-.cien {
-    height: 90vh;
-    width: 100%;
-    display: block;
-    box-shadow: inset 0 4px 20px 4px black;
-    position: absolute;
-    z-index: 1;
-}
-
 .sekcja1 img {
     height: 90vh;
     width: 100%;
