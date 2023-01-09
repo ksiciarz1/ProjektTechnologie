@@ -1,9 +1,9 @@
 :root {
-    --color1: #3D0814;
-    --color2: #E7F9A9;
-    --color3: #C6B38E;
-    --color4: #9A9B73;
-    --color5: #442F38;
+    --color1: #ee4266;
+    --color2: #2a1e5c;
+    --color3: #0a0f0d;
+    --color4: #c4cbca;
+    --color5: #cbff8c;
 }
 
 * {
@@ -18,7 +18,7 @@ li {
 }
 
 .main {
-    background-color: var(--color2);
+    background-color: var(--color4);
     display: inline-flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -44,23 +44,22 @@ nav a {
 }
 
 nav {
-    background-color: #3D0814;
+    background-color: var(--color2);
     padding: 30px;
 }
 
 nav a:hover {
-    text-shadow: 2px 2px 2px #e8641c;
+    text-shadow: 2px 2px 2px var(--color4);
     transition-duration: 200ms;
 }
 
 nav a:active {
-    color: #e8641c;
+    color: var(--color1);
     text-shadow: 2px 2px 2px white;
     transition-duration: 100ms;
 }
 
 .sekcja1 {
-    background-color: #303030;
     height: 90vh;
     background-repeat: no-repeat;
     width: 100%;
@@ -99,14 +98,14 @@ nav a:active {
 }
 
 .textBox {
-    background-color: var(--color4);
+    background-color: var(--color5);
     margin: 5px;
     padding: 15px;
     border: var(--color2) 2px solid;
 }
 
 footer {
-    background-color: var(--color5);
+    background-color: var(--color3);
     color: white;
     bottom: 0;
     position: fixed;
@@ -114,4 +113,5 @@ footer {
     padding-left: 5px;
     padding-top: 20px;
     width: 100%;
+    text-align: center;
 }
