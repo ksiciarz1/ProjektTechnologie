@@ -5,10 +5,14 @@
 .map {
     background-color: var(--colorMap);
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: nowrap;
     padding: 15px;
+    width: 100%;
+    justify-content: center;
 }
-.map > p {
-    margin: 10px;
+.map > div > p {
+    padding: 10px;
+    text-align: center;
+    background-color: #37277d;
 }

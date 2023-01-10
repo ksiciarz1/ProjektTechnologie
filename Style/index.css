@@ -24,6 +24,7 @@ li {
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: space-around;
+    min-height: 1vh;
     padding-bottom: 8vh;
 }
 
