@@ -1,0 +1,23 @@
+img {
+    width: 70%;
+    height: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textBox {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.imie {
+    font-size: 25px;
+}
+
+.column {
+    padding-top: 50px;
+}

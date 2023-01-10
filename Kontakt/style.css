@@ -20,9 +20,10 @@ a:hover {
     flex-direction: column;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 30px;
     padding: 15px;
     width: 50%;
+    position: relative;
 }
 
 .formularz>div {
@@ -66,5 +67,4 @@ button:active {
     color: var(--color1);
     border: 5px white solid;
     transition-duration: 100ms;
-    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
 }
