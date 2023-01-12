@@ -3,7 +3,8 @@
 
 <head>
     <meta charset="UTF-8">
-    <script src="Script/index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
+    <script src="../Script/kontakt.js"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../Style/index.css">
@@ -16,9 +17,9 @@
         <nav id="nav">
             <ul>
                 <li><a href="../index.html">HOME</a></li>
-                <li><a href="dzialalnosc.html">DZIAŁALNOŚĆ</a></li>
-                <li><a href="cennik.html">CENNIK</a></li>
-                <li><a href="zespol.html">ZESPÓŁ</a></li>
+                <li><a href="../Dzialanosc/dzialanosc.html">RODZAJE GIER</a></li>
+                <li><a href="../Cennik/cennik.html">CENNIK</a></li>
+                <li><a href="../Zespol/zespol.html">ZESPÓŁ</a></li>
                 <li><a href="../Kontakt/kontakt.html">KONTAKT</a></li>
                 <li><a href="../Lokalizacja/lokalizacja.html">LOKALIZACJA</a></li>
             </ul>
@@ -26,15 +27,15 @@
     </header>
     <div class="main">
         <div class="columns naszeDane">
-            <h3>Dane:</h3>
+            <h2>Kontakt:</h2>
             <p><b>Email:</b> <a href="mailto:ppuz@ppuz.edu.pl">ppuz@ppuz.edu.pl</a></p>
             <p><b>Telefon:</b> <a href="tel:+18 26-10-700">+18 26-10-700</a></p>
         </div>
         <div class="columns formularz">
-            <h2>Chcesz wysłać więcej informacji? Napisz poniżej:</h2>
+            <h2>Chcesz się dowiedzieć więcej, zadać pytanie? Napisz poniżej:</h2>
             <div>
-                <input type="text" placeholder="Twój Email">
-                <button>Wyślij</button>
+                <input type="text" id="email" placeholder="Twój Email">
+                <button id="zapisz">Wyślij</button>
             </div>
             <div>
                 <textarea maxlength="600" placeholder="Maksymalnie 600 znaków"></textarea>
@@ -42,7 +43,7 @@
         </div>
     </div>
     <footer>
-        <p>Projekt zaliczeniowy</p>
+        <p class="p">Projekt zaliczeniowy</p>
         <p>By Kacper Siciarz, Michał Sewczyk</p>
         <p>&#169; &#174; 2023r.</p>
     </footer>
