@@ -43,6 +43,10 @@ input {
     width: 250px;
 }
 
+h2 {
+    color: var(--color1);
+}
+
 textarea {
     border: 5px white solid;
     font-size: 15px;
